@@ -105,7 +105,7 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text ('흰화면 해결해서 아주 기쁩니다 🤪'),
+            const Text ('흰화면 해결해서 아주 기쁩니다 🤪',style: TextStyle(fontSize: 50,fontWeight: FontWeight.bold,color: Colors.green)),
             Text(
               'You have pushed the button this many times:',
             ),
